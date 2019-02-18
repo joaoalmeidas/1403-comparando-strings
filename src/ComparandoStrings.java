@@ -16,15 +16,15 @@ public class ComparandoStrings {
 		
 		if(s1.length() > s2.length()) {
 			
-			System.out.printf("%s tem menos caracteres que %s%n", s1, s2);
+			System.out.printf("\"%s\" tem mais caracteres que \"%s\"%n", s1, s2);
 			
 		}else if(s1.length() < s2.length()) {
 			
-			System.out.printf("%s tem mais caracteres que %s%n", s1, s2);
+			System.out.printf("\"%s\" tem menos caracteres que \"%s\"%n", s1, s2);
 			
 		}else if(s1.length() == s2.length()) {
 			
-			System.out.printf("%s tem o mesmo numero de caracteres que %s%n", s1, s2);
+			System.out.printf("\"%s\" tem o mesmo numero de caracteres que \"%s\"%n", s1, s2);
 			
 		}
 
